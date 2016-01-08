@@ -67,6 +67,10 @@
     return self;
 }
 
+- (instancetype)init NS_UNAVAILABLE {
+    return nil;
+}
+
 
 #pragma mark - Public methods
 
